@@ -1,0 +1,24 @@
+{
+  "name": "practica2",
+  "version": "1.0.0",
+  "description": "Coneccion",
+  "main": "appp.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon appp.js"
+  },
+  "keywords": [
+    "123"
+  ],
+  "author": "Lara",
+  "license": "ISC"
+}
+

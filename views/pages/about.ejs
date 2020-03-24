@@ -1,0 +1,43 @@
+<!-- 
+
+    <%- contentFor('hero') %>
+    <section class="hero">
+        <div class="hero-Content">
+            <h1>Titulo</h1>
+            <p>Parrafo</p>
+        </div>
+    </section>
+
+    <%- contentFor('body') %>
+    <div class="jumbotron text-center">
+        <h1>Team</h1>
+        <div class="row barras">
+            <% for (user of user) { %>
+            <div class="col-sm-3 barras">
+                <h2> <%= user.name %> </h2>
+                <h3><%= user.email %></h3>
+            </div>
+            <% } %>
+        </div>
+    </div> -->
+
+<%- contentFor ('hero') %>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>Bienvenido a mi sitio web</h1>
+    </div>
+</section>
+
+<%- contentFor ('body') %>
+<div class="jumbotron text-center">
+    <h1>TEAM</h1>
+    <div class="row barras">
+        <% for (user of users){ %>
+        <div class="col-sm-3 barras">
+            <h2><%= user.name %></h2>
+            <h3><%= user.email %></h3>
+        </div>
+        <% } %>
+    </div>
+</div>
